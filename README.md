@@ -1,15 +1,19 @@
 HookTube Ctrl - HookTube Chrome Extension
 ==========
 
-Adds keyboard controls to HookTube, uses the same mapping is YouTube.
+Adds keyboard controls to HookTube, uses the same mapping as YouTube.
 
-**F** - Toggle Fullscreen 
-**M** - Toggle Mute 
-**0-9** - Seek to the 10% / 90% of the video
-**F** - Toggle Fullscreen 
-**K** - Toggle Play / Pause 
-**J** - Rewind 10 seconds
-**L** - Fast Forward 10 seconds
+| Key | Description |
+| --- | --- |
+| F | Toggle Fullscreen |
+| M | Toggle Mute |
+| K | Toggle Play / Pause |
+| J | Rewind 10 seconds |
+| L | Fast Forward 10 seconds |
+| 0-9 | Seek to the 10% / 90% of the video |
+| Left Arrow | Rewind 5 seconds |
+| Right Arrow | Fast Forward 5 seconds |
+
 
 Installing
 -----
@@ -30,7 +34,6 @@ Unpacked Extension
 
 Issues
 -----
-N/A
 
 Found a new one, please let me know: [issue tracker](http://github.com/stfnhh/hooktube-ctrl/issues).
 
@@ -44,4 +47,4 @@ Fork at it.
 License
 -----
 
-[MIT](http://opensource.org/licenses/MIT)
+[The Unlicense](https://unlicense.org/)
