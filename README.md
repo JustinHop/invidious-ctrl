@@ -10,7 +10,7 @@ Adds keyboard controls to HookTube, uses the same mapping as YouTube.
 | K | Toggle Play / Pause |
 | J | Rewind 10 seconds |
 | L | Fast Forward 10 seconds |
-| 0-9 | Seek to the 10% / 90% of the video |
+| 0-9 | Seek to 10% / 90% of the video |
 | Left Arrow | Rewind 5 seconds |
 | Right Arrow | Fast Forward 5 seconds |
 
