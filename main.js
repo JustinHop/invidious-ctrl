@@ -1,4 +1,4 @@
-const controls = (player) => {
+const controller = (player) => {
   var player = document.querySelector(player);
 
   document.addEventListener('keydown', (e) => {
@@ -43,7 +43,7 @@ const controls = (player) => {
 const observer = new MutationObserver(function(mutations) {
   if (document.contains(document.querySelector('#player-obj'))) {
     document.activeElement.blur();
-    controls('#player-obj');
+    controller('#player-obj');
     observer.disconnect();
   }
 });
