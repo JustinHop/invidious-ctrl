@@ -20,10 +20,10 @@ const controller = (player) => {
       case(key == 75): // K
         player.paused ? player.play() : player.pause();
         break;
-      case(key == 39): // right arrow
+      case(key == 39): // Right Arrow
         player.currentTime += 5;
         break;
-      case(key == 37): // left arrow
+      case(key == 37): // Left Arrow
         player.currentTime -= 5;
         break;
       case(key == 74): // J
@@ -32,7 +32,7 @@ const controller = (player) => {
       case(key == 76): // L
         player.currentTime += 10;
         break;
-      case(key == 77): // K
+      case(key == 77): // M
         player.volume == 0 ? player.volume = 1 : player.volume = 0;
         break;
     }
