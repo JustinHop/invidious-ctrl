@@ -4,7 +4,7 @@ const controller = (player) => {
   document.addEventListener('keydown', (e) => {
 
     // Don't fire keyboard controls if focus is in search field
-    if(document.querySelector('#search-input') === document.activeElement) {
+    if(document.getElementsByName('q')[0] === document.activeElement) {
       return(false);
     }
 
@@ -39,11 +39,11 @@ const controller = (player) => {
   }, false);
 }
 
-// Wait for HookTube player to be ready
+// Wait for invidio.us player to be ready
 const observer = new MutationObserver(function(mutations) {
-  if (document.contains(document.querySelector('#player-obj'))) {
+  if (document.contains(document.querySelector('video'))) {
     document.activeElement.blur();
-    controller('#player-obj');
+    controller('video');
     observer.disconnect();
   }
 });
