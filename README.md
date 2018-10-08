@@ -1,7 +1,7 @@
-HookTube Ctrl - HookTube Chrome Extension
+Invidious Ctrl - Invidious Chrome Extension
 ==========
 
-Adds keyboard controls to HookTube, uses the same mapping as YouTube.
+Adds keyboard controls to Invidious, uses the same mapping as YouTube.
 
 | Key | Description |
 | --- | --- |
@@ -28,7 +28,7 @@ Download or clone this code and load as an unpacked extension.
 Issues
 -----
 
-Found a new one, please let me know: [issue tracker](http://github.com/stfnhh/hooktube-ctrl/issues).
+Found a new one, please let me know: [issue tracker](http://github.com/stfnhh/invidious-ctrl/issues).
 
 
 Contributing

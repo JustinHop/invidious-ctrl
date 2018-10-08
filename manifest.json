@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "HookTube Ctrl",
-  "description": "Enables youtube style keyboard controls on HookTube",
+  "name": "Invidious Ctrl",
+  "description": "Enables youtube style keyboard controls on Invidious",
   "version": "0.1",
   "icons": {
     "128": "icon.png"
@@ -9,8 +9,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://hooktube.com/watch?*",
-        "*://*.hooktube.com/watch?*"
+        "*://invidio.us/watch?*",
+        "*://*.invidio.us/watch?*"
       ],
       "run_at": "document_end",
       "js": ["main.js"]
